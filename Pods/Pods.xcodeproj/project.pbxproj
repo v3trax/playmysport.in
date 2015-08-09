@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0259A145BC7344A11615AE1E /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFECC4145BB73A0CDA63E9 /* ServerTrustPolicy.swift */; };
+		0419764855EEF7F48ECDD434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411CDE57623822ADA909FA02 /* Foundation.framework */; };
+		0C6DC69712B23CD90779A5AC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29AD6981EF8C5655A21CFF2 /* MultipartFormData.swift */; };
+		1F9896FA929BCB46392C2320 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6CA08A08D568508F3C0E8 /* Upload.swift */; };
+		3C31A6F3ED02A7FB6904BEBF /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2625387AE515083D7A54D601 /* Manager.swift */; };
+		49EE7440E5A326EB6A54D792 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77439D039300BA095158C82A /* Validation.swift */; };
+		4D1DBFF69B6E7672A6CFFA71 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA97F50ACF5523669B5663B /* ResponseSerialization.swift */; };
+		62D1FFC2C937047892C7874F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA537E620C928E798B4DF8C /* Request.swift */; };
+		7E63A3EA673435F0BD62BB88 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA093BCFD657EE89F4D1841 /* Download.swift */; };
+		7ED7C66D33C97A99972C27A8 /* Pods-playmysport.in-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28629E4228BEAAB01F1C8546 /* Pods-playmysport.in-dummy.m */; };
+		831B22C23C8D4A5DAAE47CFE /* Pods-playmysport.in-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5D066A481B38CD7E47EF26 /* Pods-playmysport.in-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8633B65CDA0C5B6F57D0A8DC /* Pods-playmysport.in-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5536C7C8966AE51D5AD4E467 /* Pods-playmysport.in-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F0496391C6782C1D9EDA80 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCEB13AA79B56EEBD987E8B /* Alamofire.swift */; };
+		C3D009330D32A22FE59427CB /* Pods-playmysport.in-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649FB5262172337B877EF /* Pods-playmysport.in-Alamofire-dummy.m */; };
+		CBAE3B075C67789B16547AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411CDE57623822ADA909FA02 /* Foundation.framework */; };
+		CF0555C98FC0B95D953C305E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65687D46F164C1B102A75A5 /* ParameterEncoding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4F0D18C1BA37F2E4CF0ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4CB1DE170A1172665B64C40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961DAF9CE40EF149CB522AEA;
+			remoteInfo = "Pods-playmysport.in-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E890781176A6602961051D /* Pods-playmysport.in-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-playmysport.in-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		050E34A5FA3CDCF3C5B65A6F /* Pods_playmysport_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playmysport_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		061FB9ECB4B48EB752507F66 /* Pods-playmysport.in-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-playmysport.in-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		09E6CA08A08D568508F3C0E8 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		2625387AE515083D7A54D601 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		28629E4228BEAAB01F1C8546 /* Pods-playmysport.in-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-playmysport.in-dummy.m"; sourceTree = "<group>"; };
+		2DD2CBD00C02CFF3670113BD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34AADDAA790043BC309BEDFA /* Pods-playmysport.in-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-playmysport.in-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BA093BCFD657EE89F4D1841 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		3EF1C2BB2115B1FD9B60D111 /* Pods-playmysport.in-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-playmysport.in-frameworks.sh"; sourceTree = "<group>"; };
+		411CDE57623822ADA909FA02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4CB299042FB0C355EAC296B3 /* Pods-playmysport.in-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-playmysport.in-environment.h"; sourceTree = "<group>"; };
+		5536C7C8966AE51D5AD4E467 /* Pods-playmysport.in-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-playmysport.in-umbrella.h"; sourceTree = "<group>"; };
+		5A9DC5785A6FD83ECCEAC37A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705ED467EB2DD0AD4EF1F748 /* Pods-playmysport.in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-playmysport.in.release.xcconfig"; sourceTree = "<group>"; };
+		7478ED6A741F66EB9D1003D9 /* Pods-playmysport.in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-playmysport.in.debug.xcconfig"; sourceTree = "<group>"; };
+		77439D039300BA095158C82A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		7B5D066A481B38CD7E47EF26 /* Pods-playmysport.in-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-playmysport.in-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7DA649FB5262172337B877EF /* Pods-playmysport.in-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-playmysport.in-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7E1CB7CE26262F29E7D16BB3 /* Pods-playmysport.in-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-playmysport.in-Alamofire.modulemap"; sourceTree = "<group>"; };
+		87CFECC4145BB73A0CDA63E9 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		8D2EC7B6DFE92FB5C7D5E308 /* Pods-playmysport.in-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-playmysport.in-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DCEB13AA79B56EEBD987E8B /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A65687D46F164C1B102A75A5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		CBA97F50ACF5523669B5663B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D01E6C37AB2469A1CE45C448 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29AD6981EF8C5655A21CFF2 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		E1C5875A64F43C8DE915AAE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99CECCEB41A020D95FB8F36 /* Pods-playmysport.in-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-playmysport.in-resources.sh"; sourceTree = "<group>"; };
+		EBA537E620C928E798B4DF8C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		EC9F8A06978333761000B200 /* Pods-playmysport.in.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-playmysport.in.modulemap"; sourceTree = "<group>"; };
+		F519D4C42F42593C6CE338AD /* Pods-playmysport.in-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-playmysport.in-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635E13E5164A4D434894A3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAE3B075C67789B16547AAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFBE4E21C31388542CF8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419764855EEF7F48ECDD434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0802B65ED648F76F6E6B71CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7D6081849C7342DC70A3494 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C8DCA82592EC545F5B9A252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA3ECEE52FBE9BF9EE208454 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B05DC72C238913783CDF736 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9DC5785A6FD83ECCEAC37A /* Info.plist */,
+				7E1CB7CE26262F29E7D16BB3 /* Pods-playmysport.in-Alamofire.modulemap */,
+				061FB9ECB4B48EB752507F66 /* Pods-playmysport.in-Alamofire.xcconfig */,
+				F519D4C42F42593C6CE338AD /* Pods-playmysport.in-Alamofire-Private.xcconfig */,
+				7DA649FB5262172337B877EF /* Pods-playmysport.in-Alamofire-dummy.m */,
+				00E890781176A6602961051D /* Pods-playmysport.in-Alamofire-prefix.pch */,
+				7B5D066A481B38CD7E47EF26 /* Pods-playmysport.in-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-playmysport.in-Alamofire";
+			sourceTree = "<group>";
+		};
+		5C47A9667718D970EB3E158F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01E6C37AB2469A1CE45C448 /* Alamofire.framework */,
+				050E34A5FA3CDCF3C5B65A6F /* Pods_playmysport_in.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F15461C1CB2384C4988663 /* Pods-playmysport.in */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5875A64F43C8DE915AAE2 /* Info.plist */,
+				EC9F8A06978333761000B200 /* Pods-playmysport.in.modulemap */,
+				34AADDAA790043BC309BEDFA /* Pods-playmysport.in-acknowledgements.markdown */,
+				8D2EC7B6DFE92FB5C7D5E308 /* Pods-playmysport.in-acknowledgements.plist */,
+				28629E4228BEAAB01F1C8546 /* Pods-playmysport.in-dummy.m */,
+				4CB299042FB0C355EAC296B3 /* Pods-playmysport.in-environment.h */,
+				3EF1C2BB2115B1FD9B60D111 /* Pods-playmysport.in-frameworks.sh */,
+				E99CECCEB41A020D95FB8F36 /* Pods-playmysport.in-resources.sh */,
+				5536C7C8966AE51D5AD4E467 /* Pods-playmysport.in-umbrella.h */,
+				7478ED6A741F66EB9D1003D9 /* Pods-playmysport.in.debug.xcconfig */,
+				705ED467EB2DD0AD4EF1F748 /* Pods-playmysport.in.release.xcconfig */,
+			);
+			name = "Pods-playmysport.in";
+			path = "Target Support Files/Pods-playmysport.in";
+			sourceTree = "<group>";
+		};
+		84C81909F4B95CB39DE5A131 = {
+			isa = PBXGroup;
+			children = (
+				2DD2CBD00C02CFF3670113BD /* Podfile */,
+				4C8DCA82592EC545F5B9A252 /* Frameworks */,
+				0802B65ED648F76F6E6B71CA /* Pods */,
+				5C47A9667718D970EB3E158F /* Products */,
+				8826314F301355BB2149E67D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8826314F301355BB2149E67D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F15461C1CB2384C4988663 /* Pods-playmysport.in */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7D6081849C7342DC70A3494 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				8DCEB13AA79B56EEBD987E8B /* Alamofire.swift */,
+				3BA093BCFD657EE89F4D1841 /* Download.swift */,
+				2625387AE515083D7A54D601 /* Manager.swift */,
+				D29AD6981EF8C5655A21CFF2 /* MultipartFormData.swift */,
+				A65687D46F164C1B102A75A5 /* ParameterEncoding.swift */,
+				EBA537E620C928E798B4DF8C /* Request.swift */,
+				CBA97F50ACF5523669B5663B /* ResponseSerialization.swift */,
+				87CFECC4145BB73A0CDA63E9 /* ServerTrustPolicy.swift */,
+				09E6CA08A08D568508F3C0E8 /* Upload.swift */,
+				77439D039300BA095158C82A /* Validation.swift */,
+				5B05DC72C238913783CDF736 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		DA3ECEE52FBE9BF9EE208454 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				411CDE57623822ADA909FA02 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		504A821C71AF827917ADB0E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831B22C23C8D4A5DAAE47CFE /* Pods-playmysport.in-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FDE038D4381E68D6B92ED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8633B65CDA0C5B6F57D0A8DC /* Pods-playmysport.in-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D187312669F3E9ABCB3601C /* Pods-playmysport.in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F81E88F048BA484D4F9015 /* Build configuration list for PBXNativeTarget "Pods-playmysport.in" */;
+			buildPhases = (
+				167C12AD575852C231DC7C8C /* Sources */,
+				E5BFBE4E21C31388542CF8A9 /* Frameworks */,
+				50FDE038D4381E68D6B92ED9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914A9F033619C99A29C086F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-playmysport.in";
+			productName = "Pods-playmysport.in";
+			productReference = 050E34A5FA3CDCF3C5B65A6F /* Pods_playmysport_in.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		961DAF9CE40EF149CB522AEA /* Pods-playmysport.in-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3480D5A629B85C9BE43FAC56 /* Build configuration list for PBXNativeTarget "Pods-playmysport.in-Alamofire" */;
+			buildPhases = (
+				F9B975AD870FD76A3F9E6793 /* Sources */,
+				635E13E5164A4D434894A3A5 /* Frameworks */,
+				504A821C71AF827917ADB0E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-playmysport.in-Alamofire";
+			productName = "Pods-playmysport.in-Alamofire";
+			productReference = D01E6C37AB2469A1CE45C448 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4CB1DE170A1172665B64C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = E3CEA1D347B3CF870CA7A736 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C81909F4B95CB39DE5A131;
+			productRefGroup = 5C47A9667718D970EB3E158F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D187312669F3E9ABCB3601C /* Pods-playmysport.in */,
+				961DAF9CE40EF149CB522AEA /* Pods-playmysport.in-Alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167C12AD575852C231DC7C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED7C66D33C97A99972C27A8 /* Pods-playmysport.in-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B975AD870FD76A3F9E6793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0496391C6782C1D9EDA80 /* Alamofire.swift in Sources */,
+				7E63A3EA673435F0BD62BB88 /* Download.swift in Sources */,
+				3C31A6F3ED02A7FB6904BEBF /* Manager.swift in Sources */,
+				0C6DC69712B23CD90779A5AC /* MultipartFormData.swift in Sources */,
+				CF0555C98FC0B95D953C305E /* ParameterEncoding.swift in Sources */,
+				C3D009330D32A22FE59427CB /* Pods-playmysport.in-Alamofire-dummy.m in Sources */,
+				62D1FFC2C937047892C7874F /* Request.swift in Sources */,
+				4D1DBFF69B6E7672A6CFFA71 /* ResponseSerialization.swift in Sources */,
+				0259A145BC7344A11615AE1E /* ServerTrustPolicy.swift in Sources */,
+				1F9896FA929BCB46392C2320 /* Upload.swift in Sources */,
+				49EE7440E5A326EB6A54D792 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		914A9F033619C99A29C086F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-playmysport.in-Alamofire";
+			target = 961DAF9CE40EF149CB522AEA /* Pods-playmysport.in-Alamofire */;
+			targetProxy = EC4F0D18C1BA37F2E4CF0ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D805853E8BECC117FBB7438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F519D4C42F42593C6CE338AD /* Pods-playmysport.in-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-playmysport.in-Alamofire/Pods-playmysport.in-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-playmysport.in-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-playmysport.in-Alamofire/Pods-playmysport.in-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		609BA997B359BDE9511C3293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AD96374A2FA194F70F8200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7478ED6A741F66EB9D1003D9 /* Pods-playmysport.in.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-playmysport.in/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-playmysport.in/Pods-playmysport.in.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_playmysport_in;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90160354A0646A35E2EF3576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6C16C8ECD01151088D8F3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F519D4C42F42593C6CE338AD /* Pods-playmysport.in-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-playmysport.in-Alamofire/Pods-playmysport.in-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-playmysport.in-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-playmysport.in-Alamofire/Pods-playmysport.in-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB902041734F0A34B15B629E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705ED467EB2DD0AD4EF1F748 /* Pods-playmysport.in.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-playmysport.in/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-playmysport.in/Pods-playmysport.in.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_playmysport_in;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3480D5A629B85C9BE43FAC56 /* Build configuration list for PBXNativeTarget "Pods-playmysport.in-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C16C8ECD01151088D8F3F8 /* Debug */,
+				5D805853E8BECC117FBB7438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CEA1D347B3CF870CA7A736 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90160354A0646A35E2EF3576 /* Debug */,
+				609BA997B359BDE9511C3293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F81E88F048BA484D4F9015 /* Build configuration list for PBXNativeTarget "Pods-playmysport.in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AD96374A2FA194F70F8200 /* Debug */,
+				FB902041734F0A34B15B629E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4CB1DE170A1172665B64C40 /* Project object */;
+}
