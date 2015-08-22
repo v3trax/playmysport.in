@@ -11,11 +11,15 @@
 		CA1F2D401B778E5F005EADDB /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1F2D3E1B778E5F005EADDB /* Fabric.framework */; };
 		CA1F2D411B778E5F005EADDB /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1F2D3F1B778E5F005EADDB /* Crashlytics.framework */; };
 		CA746D861B7784100026A693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA746D851B7784100026A693 /* AppDelegate.swift */; };
-		CA746D881B7784100026A693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA746D871B7784100026A693 /* ViewController.swift */; };
 		CA746D8B1B7784100026A693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA746D891B7784100026A693 /* Main.storyboard */; };
 		CA746D8D1B7784100026A693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA746D8C1B7784100026A693 /* Images.xcassets */; };
 		CA746D901B7784100026A693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA746D8E1B7784100026A693 /* LaunchScreen.xib */; };
 		CA746D9C1B7784100026A693 /* playmysport_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA746D9B1B7784100026A693 /* playmysport_inTests.swift */; };
+		CAA7EE6F1B77EB07001716B4 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7EE6E1B77EB07001716B4 /* HomeScreenViewController.swift */; };
+		CAA7EE711B77EB79001716B4 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7EE701B77EB79001716B4 /* FavViewController.swift */; };
+		CAA7EE731B77EBA8001716B4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7EE721B77EBA8001716B4 /* AccountViewController.swift */; };
+		CAA7EE771B77FCF4001716B4 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7EE761B77FCF4001716B4 /* MainNavigationViewController.swift */; };
+		CAA7EE791B77FD8C001716B4 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7EE781B77FD8C001716B4 /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +41,17 @@
 		CA746D801B7784100026A693 /* playmysport.in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playmysport.in.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA746D841B7784100026A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA746D851B7784100026A693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA746D871B7784100026A693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA746D8A1B7784100026A693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA746D8C1B7784100026A693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA746D8F1B7784100026A693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA746D951B7784100026A693 /* playmysport.inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playmysport.inTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA746D9A1B7784100026A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA746D9B1B7784100026A693 /* playmysport_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playmysport_inTests.swift; sourceTree = "<group>"; };
+		CAA7EE6E1B77EB07001716B4 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		CAA7EE701B77EB79001716B4 /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		CAA7EE721B77EBA8001716B4 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CAA7EE761B77FCF4001716B4 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		CAA7EE781B77FD8C001716B4 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				CA746D851B7784100026A693 /* AppDelegate.swift */,
-				CA746D871B7784100026A693 /* ViewController.swift */,
+				CAA7EE6E1B77EB07001716B4 /* HomeScreenViewController.swift */,
+				CAA7EE721B77EBA8001716B4 /* AccountViewController.swift */,
+				CAA7EE701B77EB79001716B4 /* FavViewController.swift */,
+				CAA7EE761B77FCF4001716B4 /* MainNavigationViewController.swift */,
+				CAA7EE781B77FD8C001716B4 /* MainTabViewController.swift */,
 				CA746D891B7784100026A693 /* Main.storyboard */,
 				CA746D8C1B7784100026A693 /* Images.xcassets */,
 				CA746D8E1B7784100026A693 /* LaunchScreen.xib */,
@@ -310,8 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA746D881B7784100026A693 /* ViewController.swift in Sources */,
+				CAA7EE771B77FCF4001716B4 /* MainNavigationViewController.swift in Sources */,
+				CAA7EE6F1B77EB07001716B4 /* HomeScreenViewController.swift in Sources */,
+				CAA7EE731B77EBA8001716B4 /* AccountViewController.swift in Sources */,
 				CA746D861B7784100026A693 /* AppDelegate.swift in Sources */,
+				CAA7EE711B77EB79001716B4 /* FavViewController.swift in Sources */,
+				CAA7EE791B77FD8C001716B4 /* MainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
